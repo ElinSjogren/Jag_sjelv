@@ -1,0 +1,78 @@
+*{
+  color:white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profilbild{
+  margin-right: 1rem;
+
+}
+.verticalText,
+h3 strong{
+  color:rgb(45, 100, 148);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-right:2rem;
+  background-color: white;
+  border-radius: 2px;
+  padding: 1rem;
+}
+img{
+  overflow: hidden;
+  border-radius: 4px;
+  display: block;
+  max-width: 100%;
+}
+
+body{
+  background-color: rgb(17, 17, 17);
+}
+header{
+  background-color: rgb(79, 53, 104);
+  padding: auto;
+  height: 14rem;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+}
+h1{
+  margin: auto;
+}
+nav{
+  background-color: rgb(174, 151, 196);
+  margin-bottom:0;
+  padding: 1em;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav ul a{
+  color: white;
+  text-decoration: none;
+  
+}
+.sections{
+  max-width: 70vw;
+  padding: 2em;
+  margin-inline: auto;
+}
+.contents{
+  display: flex;
+  background-color: rgb(45, 100, 148);
+  padding: 2rem;
+  border-radius: 2px;
+}
+.contentsHistoria{
+  background-color: rgb(44, 107, 163);
+  display: grid;
+  padding:2rem;
+  border-radius: 2px;
+}
+.kontaktContent{
+  display:grid;
+  
+}
